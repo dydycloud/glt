@@ -29,9 +29,11 @@
 			        <%= image_tag photo.medium!(800).source_url, size: "#{photo.width}x#{photo.height}" %>
 			      </div>
 			      <p>
-			      	<a class="social facebook" target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=<%= request.original_url+'/'+photo.id  %>">Facebook</a>
-			      	<a class="social twitter" target="_blank" href="https://twitter.com/intent/tweet?text=<%= photo.title %>%20&url=<%= request.original_url+'/'+photo.id  %>&via=www.glt.heroku.com">Twitter</a> 
-					<a class="social google" target="_blank" href="https://plus.google.com/share?url=http%3A%2F%2Ftosbourn.com">Google+</a> 
+			      	<span class='st_sharethis_hcount' displayText='ShareThis'></span>
+					<span class='st_facebook_hcount' displayText='Facebook'></span>
+					<span class='st_twitter_hcount' displayText='Tweet'></span>
+					<span class='st_pinterest_hcount' displayText='Pinterest'></span>
+					<span class='st_email_hcount' displayText='Email'></span>
 			      	comments TODO
 			      </p>
 			    </div>

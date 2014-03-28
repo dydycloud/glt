@@ -66719,3 +66719,163 @@ Started GET "/assets/intro_pg.js?body=1" for 127.0.0.1 at 2014-03-28 11:11:51 +0
 
 
 Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-03-28 11:11:51 +0100
+
+
+Started GET "/home/set/72157642808782724/13359389674" for 127.0.0.1 at 2014-03-28 11:16:19 +0100
+Processing by HomeController#photoView as HTML
+  Parameters: {"setId"=>"72157642808782724", "photoId"=>"13359389674"}
+  Rendered home/photoView.erb within layouts/application (1.3ms)
+Completed 200 OK in 908ms (Views: 41.1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-28 11:16:20 +0100
+
+
+Started GET "/assets/bootstrap_slate.css?body=1" for 127.0.0.1 at 2014-03-28 11:16:20 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-28 11:16:20 +0100
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-03-28 11:16:20 +0100
+
+
+Started GET "/assets/intro_pg.css?body=1" for 127.0.0.1 at 2014-03-28 11:16:20 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-03-28 11:16:20 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-28 11:16:20 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-28 11:16:20 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-28 11:16:20 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-03-28 11:16:20 +0100
+
+
+Started GET "/assets/intro_pg.js?body=1" for 127.0.0.1 at 2014-03-28 11:16:20 +0100
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-03-28 11:16:20 +0100
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-03-28 11:16:20 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-28 11:16:20 +0100
+
+
+Started GET "/home/set/72157642808782724" for 127.0.0.1 at 2014-03-28 11:16:22 +0100
+Processing by HomeController#set as HTML
+  Parameters: {"setId"=>"72157642808782724"}
+  Rendered home/set.erb within layouts/application (1.6ms)
+Completed 200 OK in 764ms (Views: 6.5ms)
+
+
+Started GET "/assets/bootstrap_slate.css?body=1" for 127.0.0.1 at 2014-03-28 11:16:23 +0100
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-28 11:16:23 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-28 11:16:23 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-28 11:16:23 +0100
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-03-28 11:16:23 +0100
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-03-28 11:16:23 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-28 11:16:23 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-28 11:16:23 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-03-28 11:16:23 +0100
+
+
+Started GET "/assets/intro_pg.css?body=1" for 127.0.0.1 at 2014-03-28 11:16:23 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-03-28 11:16:23 +0100
+
+
+Started GET "/assets/intro_pg.js?body=1" for 127.0.0.1 at 2014-03-28 11:16:23 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-28 11:16:23 +0100
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-03-28 11:16:23 +0100
+
+
+Started GET "/assets/Home.png" for 127.0.0.1 at 2014-03-28 11:16:23 +0100
+
+
+Started GET "/home/set/72157642808782724" for 127.0.0.1 at 2014-03-28 11:16:31 +0100
+Processing by HomeController#set as HTML
+  Parameters: {"setId"=>"72157642808782724"}
+  Rendered home/set.erb within layouts/application (2.2ms)
+Completed 200 OK in 841ms (Views: 19.5ms)
+
+
+Started GET "/home/set/72157642808782724" for 127.0.0.1 at 2014-03-28 11:16:31 +0100
+Processing by HomeController#set as HTML
+  Parameters: {"setId"=>"72157642808782724"}
+  Rendered home/set.erb within layouts/application (0.9ms)
+Completed 200 OK in 941ms (Views: 7.0ms)
+
+
+Started GET "/assets/bootstrap_slate.css?body=1" for 127.0.0.1 at 2014-03-28 11:16:32 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-03-28 11:16:32 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-28 11:16:32 +0100
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-03-28 11:16:32 +0100
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-28 11:16:32 +0100
+
+
+Started GET "/assets/intro_pg.css?body=1" for 127.0.0.1 at 2014-03-28 11:16:32 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-28 11:16:32 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-28 11:16:32 +0100
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-03-28 11:16:33 +0100
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-03-28 11:16:33 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-03-28 11:16:33 +0100
+
+
+Started GET "/assets/intro_pg.js?body=1" for 127.0.0.1 at 2014-03-28 11:16:33 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-28 11:16:33 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-28 11:16:33 +0100
+
+
+Started GET "/assets/Home.png" for 127.0.0.1 at 2014-03-28 11:16:33 +0100
