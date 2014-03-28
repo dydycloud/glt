@@ -1,0 +1,22 @@
+<div class="containner">
+	<h2 id="font_intro" style="font-family: 'Bad Script', cursive;">
+		<span style="margin-top: 10px;"><a href="/"><%= image_tag "Home.png", width: 50, height: 50%></a></span>
+		Instantanés
+	</h2>
+	<hr>
+	<div class="row">
+	
+	<div id="gallery">
+		<% @sets.each do |s| %>
+			<div class="block_holder">
+				<div class="block">
+						<img src="<%= cover_img_url(s.id) %>" alt="<%= s.title %>" width="320px" height="336">
+						<div class="hover_info">
+			                <h1><%= s.title %></h1>
+			                <p> <a href="set/<%= s.id %>">voir</a></p>
+	           			</div>
+				</div>
+			</div>
+		<% end %>	
+	</div>
+</div>

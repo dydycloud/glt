@@ -1,0 +1,42 @@
+<div class="containner">
+	<h3 id="font_intro">
+		<span style="margin-top: 10px;"><a href="<%= url_for :controller => 'home', :action => 'instantanes' %>">
+		<%= image_tag "Home.png", width: 50, height: 50%></a></span>   
+		<%= @set.title %>
+	</h3>
+	<hr>
+	<div id="gallery">
+		<% @photos.each do |photo| %>
+			<div class="block_holder2">
+			<a href="#" data-toggle="modal" data-target="#<%= photo.id %>">
+				<div class="block2">
+						<%= image_tag photo.small!(320).source_url, size: "#{photo.width}x#{photo.height}" %>
+						<div class="hover_info2">
+			                <h1><%= photo.title %></h1>
+	           			</div>
+				</div>
+			</a>
+			</div>
+			<!-- Modal -->
+			<div class="modal fade" id="<%= photo.id %>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			  <div class="modal-dialog">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			        <h4 class="modal-title" id="myModalLabel"><%= photo.title %></h4>
+			      </div>
+			      <div class="modal-body">
+			        <%= image_tag photo.medium!(800).source_url, size: "#{photo.width}x#{photo.height}" %>
+			      </div>
+			      <p>
+			      	<a class="social facebook" target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=<%= request.original_url+'/'+photo.id  %>">Facebook</a>
+			      	<a class="social twitter" target="_blank" href="https://twitter.com/intent/tweet?text=<%= photo.title %>%20&url=<%= request.original_url+'/'+photo.id  %>&via=www.glt.heroku.com">Twitter</a> 
+					<a class="social google" target="_blank" href="https://plus.google.com/share?url=http%3A%2F%2Ftosbourn.com">Google+</a> 
+			      	comments TODO
+			      </p>
+			    </div>
+			  </div>
+			</div>
+		<% end %>	
+	</div>
+</div>

@@ -1,0 +1,39 @@
+<div class="container" style="padding-top: 50px">
+	<div class="row" id="top">
+		<p id="introhaut">
+			<% @photosHaut.each do |p| %>
+				<img src="<%= p.small!(320).source_url %>" width="<%= p.small!(320).width %>" height="<%= p.small!(320).height %>"></img>
+			<% end %>
+		</p>
+	</div>
+	<div class="row">
+		<br>
+		<div class="container">
+			<p>
+				<%= image_tag("/logo.png", size: "220x180") %> 
+				<span class="pull-right">
+					<span class="menu">
+						<%= link_to "Humeur", root_path %>
+					</span>
+					<span class="menu">
+						<%= link_to "Instantanés", home_instantanes_path %>
+					</span>
+					<span class="menu">
+						<%= link_to "Actus", root_path %>
+					</span>
+					<span class="menu">
+						<%= link_to "Livre d'or", root_path %>
+					</span>
+				</span> 
+
+			</p>
+		</div><br>
+	 </div>
+	<div class="row" id="bas">
+		<p id="intrbas">
+			<% @photosBas.each do |p| %>
+				<img src="<%= p.medium!(500).source_url %>" width="<%= p.thumbnail!().width %>" height="<%= p.thumbnail!().height %>"></img>
+			<% end %>
+		</p>
+	</div>
+</div>
