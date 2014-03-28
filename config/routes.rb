@@ -10,6 +10,7 @@ Boumbo::Application.routes.draw do
   get "home/humeur"
   get "home/livredor"
   match 'home/set/:setId' => 'home#set', via: [:get]
+  match 'home/set/:setId/:photoId' => 'home#photoView', via: [:get]
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

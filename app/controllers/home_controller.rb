@@ -40,7 +40,7 @@ class HomeController < ApplicationController
     @photos = @set.get_photos(sizes: :all)
   end
   
-  def photo
+  def photoView
     expires_in 2.days
     person = Flickr.people.find("115383236@N07")
     sets= person.get_sets
